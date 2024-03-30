@@ -12,7 +12,7 @@ expect.extend({
   },
 })
 
-describe('formatErrors', () => {
+describe('formatErrors' = () => {
   it('should produce objects that match the validation spec', () => {
     // Produce an error
     const { errors } = validateJson({ type: 'string' }, 0)
