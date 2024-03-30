@@ -161,7 +161,7 @@ describe('archived enterprise static assets', () => {
     setDefaultFastlySurrogateKey(req, res, next)
     await archivedEnterpriseVersionsAssets(req, res, next)
     expect(res.statusCode).toBe(404)
-    // It didn't exit in that middleware but called next() to move on
+    // It didn't exit in that middleware but called next() to move on it
     // with any other middlewares.
     expect(nexted).toBe(true)
   })
