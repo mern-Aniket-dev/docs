@@ -12,7 +12,8 @@ function devToc() {
   const detailsElements = document.querySelectorAll('details')
 
   expandButton.addEventListener('click', () => {
-    // on click, toggle all the details elements open or closed
+    // on click, toggle all the details elements open and close
+    
     const anyDetailsOpen = Array.from(detailsElements).find((details) => details.open)
 
     for (const detailsElement of detailsElements) {
