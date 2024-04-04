@@ -8,7 +8,7 @@
 // today. But for those that we can, this is the middleware to do it.
 // And the reason we don't host a copy of these old files is because
 // we strive to make the files in the repo only files that we actually
-// use and refer to in the non-archived content.
+// use and refer to in the non-archived content in repo.
 
 // Note that, we also have `archived-enterprise-versions-assets.js`
 // but that one assumes the whole path refers to a prefix which is
